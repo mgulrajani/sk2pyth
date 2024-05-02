@@ -1,1 +1,2 @@
-from multipleinheritancedemo2 import A
+
+        return self.cards[position]
