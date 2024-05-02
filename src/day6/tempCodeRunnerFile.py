@@ -1,0 +1,1 @@
+from multipleinheritancedemo2 import A
