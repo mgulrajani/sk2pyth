@@ -1,0 +1,3 @@
+learning to write to files in Python
+loving to work with files at os level with pathlib Path
+ its so much easier than os level module
