@@ -35,10 +35,11 @@ class C(A):
         print("In Class C")
 
 
-class D(C,B):
-    def m1(self):
+class D(B,C):
+    pass
+    """ def m1(self):
         print("In class D")
-
+ """
 
 obj =D()
 

@@ -1,9 +1,24 @@
+def replace_char_at_index(str,newstr,index):
+    if index < 0 or index >= len(str):
+        raise ValueError("Index is out of range for the given string.")
+    
+    return str[:index] + newstr + str[index + 1:]
+
 s = "These words are separated by spaces"
 print( s.split(" ") )
 
 
 ans=input("which is your fav programming language ?")
-print(f"{ans} is my fav programming language too")
+
+s1=s[:4]
+s = s.replace(s1,ans)
+print("new s data")
+print(s)
+
+
+
+newans = replace_char_at_index(s,"not so fav",12)
+print(newans)
 
 num_of_years = input("how many years experience with this language")
 

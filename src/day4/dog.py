@@ -2,9 +2,10 @@ class Dog:
     '''A simple attempt to model a Dog'''
 
     '''constructor takes , self (pointing to itself same object, this in Java) name and age'''
-    def __init__(self,n,a) -> None:
-        self.name=n
-        self.age=a
+    def __init__(self,a,age) -> None:
+        self.name=a
+        self.age=age
+       
 
     def sit(self):
         '''Simulating a dog sitting in response to a command'''
@@ -15,7 +16,7 @@ class Dog:
         print(f"{self.name} rolled over!")
 
 
-my_dog= Dog('Willie',3)
+my_dog= Dog('Wally',3)
 print(f"My dog's name is {my_dog.name}")
 print(f"My dog's age is {my_dog.age}")
 

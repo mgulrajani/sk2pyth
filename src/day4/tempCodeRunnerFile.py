@@ -1,1 +1,1 @@
-my_car.odometer_reading=23
+dict
